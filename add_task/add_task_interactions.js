@@ -22,15 +22,15 @@ function changePriorityColor(priority) {
   selectedPriority = priority;
   if (priority === "urgent") {
     document.getElementById('urgent').classList.add("bg-red");
-    document.getElementById('double-arrow').src = "../assets/arrows-up-white.png";
+    document.getElementById('double-arrow').src = "./assets/arrows-up-white.png";
   }
   if (priority === "medium") {
     document.getElementById('medium-input').classList.add("bg-orange");
-    document.getElementById("equal").src = "../assets/equal-white.svg";
+    document.getElementById("equal").src = "./assets/equal-white.svg";
   }
   if (priority === "low") {
     document.getElementById('low-input').classList.add("bg-green");
-    document.getElementById("double-down").src = "../assets/double-down-white.svg";
+    document.getElementById("double-down").src = "./assets/double-down-white.svg";
   }
 }
 
@@ -93,9 +93,9 @@ function switchAssignedArrow() {
   let arrowIcon = document.getElementById('drop-down-svg-assign');
   let currentSrc = arrowIcon.src;
   if (currentSrc.includes("arrow_drop_down.svg")) {
-    arrowIcon.src = "../assets/arrow_drop_down2.svg";
+    arrowIcon.src = "./assets/arrow_drop_down2.svg";
   } else {
-    arrowIcon.src = "../assets/arrow_drop_down.svg";
+    arrowIcon.src = "./assets/arrow_drop_down.svg";
   }
 }
 

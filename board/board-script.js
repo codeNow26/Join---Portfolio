@@ -249,15 +249,15 @@ function changePriorityColor(priority) {
   selectedPriority = priority;
   if (priority === "urgent") {
     document.getElementById('urgent').classList.add("bg-red");
-    document.getElementById('double-arrow').src = "../assets/arrows-up-white.png";
+    document.getElementById('double-arrow').src = "./assets/arrows-up-white.png";
   }
   if (priority === "medium") {
     document.getElementById('medium-input').classList.add("bg-orange");
-    document.getElementById("equal").src = "../assets/equal-white.svg";
+    document.getElementById("equal").src = "./assets/equal-white.svg";
   }
   if (priority === "low") {
     document.getElementById('low-input').classList.add("bg-green");
-    document.getElementById("double-down").src = "../assets/double-down-white.svg";
+    document.getElementById("double-down").src = "./assets/double-down-white.svg";
   }
 }
 

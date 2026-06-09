@@ -132,13 +132,13 @@ function getSubtasksImg(isDone) {
 function getEditPriorityIcons(priority) {
   return {
     urgent: priority === "urgent"
-      ? "../assets/arrows-up-white.png"
+      ? "./assets/arrows-up-white.png"
       : "./assets/urgent-priority-board.svg",
     medium: priority === "medium"
-      ? "../assets/equal-white.svg"
+      ? "./assets/equal-white.svg"
       : "./assets/medium-priority-board.svg",
     low: priority === "low"
-      ? "../assets/double-down-white.svg"
+      ? "./assets/double-down-white.svg"
       : "./assets/low-priority-board.svg",
   };
 }

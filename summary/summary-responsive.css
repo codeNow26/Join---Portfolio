@@ -19,7 +19,7 @@
     display: block;
     width: 40px;
     height: 40px;
-    background-image: url("../assets/logo-black.svg");
+    background-image: url("./assets/logo-black.svg");
   }
 
   .left-side {

@@ -132,7 +132,7 @@ header {
         display: block;
         width: 100px;
         height: 32px;
-        background-image: url(../assets/logo-black.svg);
+        background-image: url(./assets/logo-black.svg);
     }
 
     h3 {

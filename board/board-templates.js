@@ -155,7 +155,7 @@ function subtaskEditItemTemplate(st, i) {
           <div class="edit-subtask-icons hidden">
             <img id="edit-delete-icon" class="delete-icon" src="./assets/delete.svg" alt="delete">
             <div class="divider"></div>
-            <img id="edit-accept-icon" class="subtask-check-svg" src="../assets/check-grey.svg" alt="accept">
+            <img id="edit-accept-icon" class="subtask-check-svg" src="./assets/check-grey.svg" alt="accept">
           </div>
 
         </div>
@@ -229,7 +229,7 @@ function editOverlayMarkup(task, icons, subtaskContent) {
                         <div class="em-05 padding-top20">Assigned to</div>
                         <input onclick="renderAssignDropdown()" id="assign-input" type="text" class="input assign-Input cursorPointer"
                             placeholder="Select contact to assign">
-                        <img id="drop-down-svg-assign" class="drop-down-arrow-svg" src="../assets/arrow_drop_down.svg">
+                        <img id="drop-down-svg-assign" class="drop-down-arrow-svg" src="./assets/arrow_drop_down.svg">
                         <div id="dropdownList" class="dropdown-list"></div>
                     </div>
                     <div id="filteredBadgesContainer"></div>
@@ -240,7 +240,7 @@ function editOverlayMarkup(task, icons, subtaskContent) {
                             class="input category-input cursorPointer" placeholder="Select task category" readonly>
                         <p class="required-mssg" id="required-message-category"></p>
                         <img onclick="switchArrowIcon()" id="drop-down-svg-category"
-                            class="drop-down-arrow-svg-category" src="../assets/arrow_drop_down.svg">
+                            class="drop-down-arrow-svg-category" src="./assets/arrow_drop_down.svg">
                         <div id="dropdownListCategory" class="dropdown-list">
                             <div id="technical-task-option" class="category-option">Technical Task</div>
                             <div id="user-story-option" class="category-option">User Story</div>
@@ -344,17 +344,17 @@ function addTaskOverlayTemplate() {
                             <div id="urg-container" onclick="changePriorityColor('urgent')" class="urgent-container">
                                 <input id="urgent" class="input priority-input" placeholder="Urgent" readonly
                                     data-prio="urgent">
-                                <img id="double-arrow" class="double-up-arrow" src="../assets/Prio alta.svg">
+                                <img id="double-arrow" class="double-up-arrow" src="./assets/Prio alta.svg">
                             </div>
                             <div onclick="changePriorityColor('medium')" class="medium-container">
                                 <input id="medium-input" class="input priority-input no-focus" placeholder="Medium" readonly
                                     data-prio="medium">
-                                <img id="equal" class="equals-icon" src="../assets/Prio media.svg">
+                                <img id="equal" class="equals-icon" src="./assets/Prio media.svg">
                             </div>
                             <div onclick="changePriorityColor('low')" id="low-container" class="low-container">
                                 <input id="low-input" class="input priority-input" placeholder="Low" readonly
                                     data-prio="low">
-                                <img id="double-down" class="double-down" src="../assets/double-down.svg">
+                                <img id="double-down" class="double-down" src="./assets/double-down.svg">
                             </div>
                         </div>
                     </div>
@@ -363,7 +363,7 @@ function addTaskOverlayTemplate() {
                         <div class="em-05 padding-top20">Assigned to</div>
                         <input onclick="renderAssignDropdown()" id="assign-input" type="text" class="input assign-Input cursorPointer"
                             placeholder="Select contact to assign">
-                        <img id="drop-down-svg-assign" class="drop-down-arrow-svg" src="../assets/arrow_drop_down.svg">
+                        <img id="drop-down-svg-assign" class="drop-down-arrow-svg" src="./assets/arrow_drop_down.svg">
                         <div id="dropdownList" class="dropdown-list"></div>
                     </div>
                     <div id="filteredBadgesContainer"></div>
@@ -374,7 +374,7 @@ function addTaskOverlayTemplate() {
                             class="input category-input cursorPointer" placeholder="Select task category" readonly>
                         <p class="required-mssg visibility-hidden" id="required-message-category">*This field ist required</p>
                         <img onclick="switchArrowIcon()" id="drop-down-svg-category"
-                            class="drop-down-arrow-svg-category" src="../assets/arrow_drop_down.svg">
+                            class="drop-down-arrow-svg-category" src="./assets/arrow_drop_down.svg">
                         <div id="dropdownListCategory" class="dropdown-list">
                             <div id="technical-task-option" class="category-option">Technical Task</div>
                             <div id="user-story-option" class="category-option">User Story</div>
@@ -385,10 +385,10 @@ function addTaskOverlayTemplate() {
                     <div class="subtask-input-container">
                         <input type="text" id="subtask-input" class="input subtask-input" placeholder="Add new subtask">
                         <div id="cancel-accept-container" class="cancel-accept-container">
-                            <img id="subtask-cancel" class="subtask-close-svg" src="../assets/close.svg">
+                            <img id="subtask-cancel" class="subtask-close-svg" src="./assets/close.svg">
                             <div class="divider"></div>
                             <div class="subcheck">
-                                <img id="subtask-accept" class="subtask-check-svg" src="../assets/check-grey.svg">
+                                <img id="subtask-accept" class="subtask-check-svg" src="./assets/check-grey.svg">
                             </div>
                         </div>
 
